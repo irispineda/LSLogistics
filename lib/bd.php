@@ -39,7 +39,7 @@
 					if(empty($where)){
 						$where= $campo." ".$valor[1]." '".$valor[0]."' ";
 					}else{
-						$where= " AND ".$campo." ".$valor[1]." '".$valor[0]."' ";
+						$where = $where." AND ".$campo." ".$valor[1]." '".$valor[0]."' ";
 					}
 				}
 			}
